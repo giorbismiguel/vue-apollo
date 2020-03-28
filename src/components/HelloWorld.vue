@@ -1,5 +1,12 @@
 <template>
   <div class="hello">
+    <p>
+      <router-link to="/foo">Go to Foo</router-link>
+      <router-link to="/bar">Go to Bar</router-link>
+    </p>
+    
+    <router-view></router-view>
+
     <h1>{{ msg }}</h1>
     <button @click="handleClick">Test Mutation</button>
     <p>
